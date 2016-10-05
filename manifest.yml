@@ -1,0 +1,11 @@
+---
+applications:
+- name: spring-boot-wap-sample
+  host: spring-boot-wap-sample-jenkin2
+  path: target/wap-jenkin2-sample.jar
+  memory: 256M
+  disk_quota: 256M
+  instances: 1
+server:
+    port: 9090
+random-route: true
